@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{  
+float a,b,c;    
+    cout << "Enter Two Numbers";   //two nubers which should be multiplied
+    cin  >>a>>b;                   // two numbers entered by the user
+    c=a*b;                         //Multiplying two numbers
+    cout << "Product = "<<c;
+
+    return 0;
+}
